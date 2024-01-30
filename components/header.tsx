@@ -8,7 +8,7 @@ import { Button, buttonVariants } from '@/components/ui/button'
 import { Sidebar } from '@/components/sidebar'
 import { SidebarList } from '@/components/sidebar-list'
 import {
-  IconGitHub,
+  IconKaufmann,
   IconNextChat,
   IconSeparator,
   IconVercel
@@ -61,15 +61,15 @@ export function Header() {
         </React.Suspense>
       </div>
       <div className="flex items-center justify-end space-x-2">
-        {/* <a
+         <a
           target="_blank"
-          href="https://github.com/vercel/nextjs-ai-chatbot/"
+          href="https://kaufmann.cl/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a> */}
+          <IconKaufmann />
+          <span className="hidden ml-2 md:flex">Kaufmann</span>
+        </a> 
         {/* <a
           href="https://github.com/vercel/nextjs-ai-chatbot/"
           target="_blank"

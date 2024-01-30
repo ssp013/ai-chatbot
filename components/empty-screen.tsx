@@ -15,7 +15,7 @@ const exampleMessages = [
   },
   {
     heading: 'Lista de modelos que conoces',
-    message: `Cuántos modelosd de camiones manejas"?`
+    message: `Cuántos modelos de camiones manejas"?`
   },
   {
     heading: 'Qué información tienes del modelo ATEGO 1726/42 4X4 (EURO V)',
